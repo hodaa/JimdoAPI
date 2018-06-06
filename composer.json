@@ -1,0 +1,15 @@
+{
+  "name": "hoda/jimdo",
+  "authors": [
+    {
+      "name": "hodamobile",
+      "email": "hhussin@mobiledoctors24-7.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4":{
+      "Jimdo\\":"src/"
+    }
+  }
+}
