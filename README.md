@@ -27,7 +27,8 @@ Execute the following command in your project root to install this library:
 Provider type is exist in config.php file .
 
 
-##Examples
+## Example
+
         http://jimdo.test/?query=coffe&lat=30.02&lng=30.33
  
  Method:get
