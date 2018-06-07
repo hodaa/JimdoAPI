@@ -10,7 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-PHP 7.0
+PHP 7.2
+
 Composer (https://getcomposer.org/)
 
 
@@ -26,28 +27,17 @@ Execute the following command in your project root to install this library:
 Provider type is exist in config.php file .
 
 
-## Deployment
-
-Execute the following command in your project root :
-
-      php index.php 2017-11-20T09:30 2017-11-23T19:30 5
-
-
-## Running the tests
-  Execute the following command in your project root to install this library:
-
-	./vendor/bin/phpunit tests
-
-
+##Examples
+        http://jimdo.test/?query=coffe&lat=30.02&lng=30.33
+ 
+ Method:get
+ Parameters:query is required
+            lat & lng are optional
 
 ## Built With
 
+* [PHP 7.2]
 * [Composer autoloading Package]
-* [PHPunit](https://phpunit.de/) -Used to generate unit testing
-
-
-### If you had more time
-I will build singletone design pattern for DB connection
 
 
 ## Authors
