@@ -1,41 +1,60 @@
-# JimdoApi
-----
-Given a full URL, returns an  short URL. Currently the API only supports shortening a single URL per API call.
-Current API Version: 1
 
-* **URL**
- api/short_url
+# getyourguide-api
 
-* **Method:**
-  GET
-  
-*  **URL Params**
+API list places matching a query I provided from multiple providers on the internet
+ (e.g. Google Places, Yelp, and/or Foursquare).
 
- 
-   `short_url=[string]`
+## Getting Started
 
-   
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* **Success Response:**
-  
-  Returns short url data on success
- {
-    "data": {
-        "sort_url": "http://localhost/short_url/public/1741c0",
-        "long_url": "https://app.getpostman.com/app/download/win64"
-    },
-    "status_code": 200,
-    "status_txt": "OK"
-}
- 
-* **Error Response:**
+### Prerequisites
 
-    {
-        "error": {
-            "userMessage": "No URL was supplied.",
-            "code": 43
-        }
-    }
+PHP 7.0
+Composer (https://getcomposer.org/)
 
-* **Sample Call:**
-    http://localhost/ShortenUrl/public/api/short_url?url=your_url
+
+### Installing
+
+Execute the following command in your project root to install this library:
+
+      composer install
+      composer dump-autoload -o
+
+## Configuration
+
+Provider type is exist in config.php file .
+
+
+## Deployment
+
+Execute the following command in your project root :
+
+      php index.php 2017-11-20T09:30 2017-11-23T19:30 5
+
+
+## Running the tests
+  Execute the following command in your project root to install this library:
+
+	./vendor/bin/phpunit tests
+
+
+
+## Built With
+
+* [Composer autoloading Package]
+* [PHPunit](https://phpunit.de/) -Used to generate unit testing
+
+
+### If you had more time
+I will build singletone design pattern for DB connection
+
+
+## Authors
+
+* **Hoda Hussin** -- (https://github.com/hodaa)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
