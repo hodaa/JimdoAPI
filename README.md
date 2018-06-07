@@ -32,6 +32,7 @@ Provider type is exist in config.php file .
         http://jimdo.test/?query=coffe&lat=30.02&lng=30.33
  
  Method:get
+ 
  Parameters:query is required
             lat & lng are optional
 
