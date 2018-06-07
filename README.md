@@ -1,5 +1,5 @@
 
-# getyourguide-api
+# Jimdo-api
 
 API list places matching a query I provided from multiple providers on the internet
  (e.g. Google Places, Yelp, and/or Foursquare).
